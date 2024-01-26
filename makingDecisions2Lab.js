@@ -64,11 +64,20 @@ let evensArr = []
 //Code Here
 
 
+for (n = 0; n < nums.length; n++){
+  console.log(nums[n])
+}
+
+
+
+
+
+console.log("===========================")
 
 ////////// PROBLEM 5 //////////
 
 // Do not edit the code below.
-var score = 74
+var score = 80
 // Do not edit the code above.
 
 /*
@@ -77,13 +86,28 @@ var score = 74
 
 //Code Here
 
+if (score >= 90){
+  console.log("A")
+} else if (score <90 && score >= 80){
+  console.log("B")
+} else if (score <80 && score>= 70){
+  console.log("C")
+} else if (score <70 && score>= 60){
+  console.log("D")
+} else{
+  console.log("F")
+}
+
+
+
+console.log("===========================")
 
 ////////// Intermediate Problems //////////
 
 ////////// PROBLEM 6 //////////
 
 // Do not edit the code below.
-var myFavoriteNumbers = [4,8,12,16,20,24];
+var myFavoriteNumbers = [4,8,12,16,20,24,100,101];
 // Do not edit the code above.
 
 /*
@@ -92,6 +116,15 @@ var myFavoriteNumbers = [4,8,12,16,20,24];
 
 //Code Here
 
+let someNum = myFavoriteNumbers[4]
+
+console.log(someNum)
+
+
+
+
+
+console.log("===========================")
 
 ////////// PROBLEM 7 //////////
 
@@ -100,6 +133,22 @@ var myFavoriteNumbers = [4,8,12,16,20,24];
 
 //Code Here
 
+if (myFavoriteNumbers.length < 7){
+  console.log("There are not enough elements in the array")
+} else if (myFavoriteNumbers.length > 7){
+  someNum = myFavoriteNumbers[6]
+} else {
+  console.log("There ar exactly 7 data points in this array")
+}
+
+console.log(someNum)
+
+
+
+
+
+
+console.log("===========================")
 
 ////////// PROBLEM 8 //////////
 
@@ -111,6 +160,15 @@ var listOfNumbers = [1,2,3,4,5,6,7,8,9,10,11,12];
 
 //Code Here
 
+for (n = 0; n < 12; n ++)
+  if (listOfNumbers[n] % 3 === 0){
+    console.log(`${listOfNumbers[n]} is divisible by 3`)
+} else {
+  console.log(listOfNumbers[n])
+}
+
+
+console.log("===========================")
 
 ////////// PROBLEM 9 //////////
 // Do not edit the code below.
@@ -123,6 +181,18 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 
 //Code Here
 
+for (n = 5; n >= 0; n--){
+  console.log(letters[n])
+}
+
+
+
+
+
+
+
+
+console.log("===========================")
 
 ////////// Advanced Problems //////////
 
